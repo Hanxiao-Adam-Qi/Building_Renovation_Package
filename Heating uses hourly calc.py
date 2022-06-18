@@ -6,12 +6,6 @@ Insulation_Thinkness = [0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3]
 Window_Types = [0,1, 2, 3, 4, 5, 6]
 HP_COP = [1]
 
-# # test
-# Insulation_Type = ['Glasswool']
-# Insulation_Thinkness = [0]
-# Window_Types = [0]
-# HP_COP = [1]
-
 wb_heat_use1 = Workbook()
 sheet1 = wb_heat_use1.create_sheet('Heating use hourly', index=0)
 sheet1.cell(1, 1, 'Heating use hourly')
